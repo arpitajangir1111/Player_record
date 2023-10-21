@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+
+}
+.main{
+justify-content: center;
+display: flex;
+align-items: center;
+margin: 50px auto;
+
+  
+}
+.form{
+  height: 460px;
+  width: 400px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px black;
+  justify-content: space-between;
+}
+.list label{
+  font-size: 18px;
+  font-weight: 190px;
+  /* padding: 10px; */
+}
+.list input{
+ height: 20px;
+ width: 190px;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 24px;
+}
